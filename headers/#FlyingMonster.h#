@@ -1,0 +1,53 @@
+#ifndef FLYINGMONSTER_H
+#define FLYINGMONSTER_H
+
+#include <iostream>
+#include "Monster.h"
+#include <fstream>
+#include <string>
+#include "Element.h" 
+using namespace std;
+
+class FlyingMonster : public Monster
+{
+    public:
+        FlyingMonster(int a)
+        {
+            ifstream extract;
+            extract.open("flyingMonster.txt");
+            int count = 0;
+            int done = 1;
+            extract >> count;
+
+            while (done <= count)
+            {
+                int lvl;
+                extract >> lvl;
+                if (lvl == a)
+                {
+		  string
+                    charLevel = lvl;
+                    extract >> charHealth >> charAttack >> charDefense >> monsterElement;
+		    
+                    break;
+                }
+                else
+                {
+                    string discard;
+                    lvl = 0;
+                    getline(extract, discard);
+                }
+                done++;
+            }
+            extract.close();
+        }
+
+        ~FlyingMonster() {}
+
+        string getType() const
+        {
+            return "Flying";
+        }
+};
+
+#endif // FLYINGMONSTER_H
