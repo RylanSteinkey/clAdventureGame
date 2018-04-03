@@ -1,0 +1,67 @@
+#include "../headers/Monster.h"
+#include "../headers/FactoryElement.h"
+#include <fstream>
+#include <string>
+#include <cstdlib>
+#include <time.h>
+#include <vector>
+#include <sstream>
+
+using namespace std;
+
+void Monster::readFile(string inFile, int level)
+{
+   vector <string> lines;
+
+   ifstream extract;
+   extract.open(inFile);
+
+   int count = 0;
+
+   extract >> count;
+
+   int line = 0;
+   
+   while(line <= count)
+   {
+      int lvl;
+      extract >> lvl;
+      
+      if (lvl == level)
+      {
+	 string store;
+	 getline(extract, store);
+	 lines.push_back(store);
+	 charLevel = lvl;
+      }
+      else
+      {
+	 string discard;
+	 getline(extract, discard);
+	 line++;
+      }
+   }
+
+   srand(time(NULL));
+   
+   int decide = (rand() % lines.size());
+   stringstream ss(lines[decide]);
+   string ele;
+   ss >> charHealth >> charAttack >> charDefense >> ele;
+   charMaxHealth = charHealth;
+   element = FactoryElement::createElement(ele); 
+   charInventory = new Inventory(1);
+
+   
+   charName = getType() + " ";
+   if (ele != "Normal")
+      charName += ele+ " ";
+   charName +="Monster";
+   
+   extract.close();
+}
+
+Element* Monster::getElementPointer() const
+{
+   return element;
+}

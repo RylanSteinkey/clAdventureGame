@@ -1,0 +1,40 @@
+#makefile for YaDimSum 
+# ... Prey this works boys 
+# Nov 7 2017 
+
+
+
+CCC = g++ -std=c++11 -I$(HDR_DIR)
+HDR_DIR = ../headers
+ARCHIVEDIR = ../archive_dir
+LINKERSWITCHES = -L $(ARCHIVEDIR)
+CCCFLAGS = -Wall  -lcppunit -ldl -fprofile-arcs -ftest-coverage 
+TESTOBJS = Battle.o  BattleTest.o RoadTest.o Road.o Town.o TownTest.o CPPUNITTEST.o 
+
+.PHONEY : all 
+all : CPPTEST
+
+#CPPTEST : $(#ARCHIVEDIR)/projectarchive.a 
+#	$(#CCC) $(#CCCFLAGS) $#^ -o $#@ 
+
+CPPTEST :  $(TESTOBJS) 
+	$(CCC) $(CCCFLAGS) $^ -o $@
+
+# **************************************************
+ %.o : %.cc 
+	$(CCC) -c $(CCCFLAGS) $< 
+#***************************************************
+
+.prereq : $(HDR_DIR:.o=.cc) $(wildcard *.h) Makefile 
+	rm -f .prereq
+	$(CCC) $(CCCFLAGS) -MM $(TESTOBJS:.o=.cc) >> ./.prereq
+#**************************************************
+include .prereq
+
+.PHONY : clean 
+clean: 
+	rm -f *.o *~ *% *# *.# *.gcno *.gcd *.gcov *.gcda 
+
+.PHONY : clean-all 
+clean-all: clean 
+	rm -f CPPTEST

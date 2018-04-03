@@ -1,0 +1,35 @@
+#makefile for yadimsum to get the base of it at least compiling .. 
+#we might want to make other makefiles for your own testing 
+#but maybe this one will become the main one 
+#This will be the first makefile .. and then I will hopefully convert to the archive 
+
+CCC = g++  
+HDR_DIR = ../headers
+CCCFLAGS = -Wall -std=c++11 -I$(HDR_DIR) 
+ARCHIVEDIR = Archive
+LINKERSWITCHES = -L $(ARCHIVEDIR)
+
+.PHONEY : all 
+#************************************************************************
+all: FullGame CPPUNIT 
+
+FullGame: ./Archive/FullTest.a 
+	$(CCC) $(CCCFLAGS) $^ -o $@ $(LINKERSWITCHES)
+
+CPPUNIT: $(ARCHIVEDIR)/CPPTest.a
+	$(CCC) $(CCCFLAGS) -lcppunit -ldl $^ -o $@ $(LINKERSWITCHES)
+
+#*******************************************************************
+
+./Archive/FullTest.a: ./Archive/FullTest.a(Map.o)
+	ranlib ./Archive/FullTest.a
+
+%.o: %.cc 
+	$(CC) -c $(CCCFLAGS) $<
+
+
+clean:
+	rm -f *~ *.o *.#*
+
+clean-all: clean 
+	rm -f FullGame CPPUNIT BattleTesting InventoryTesting ItemTesting MonsterTesting PlayerTesting NPCTesting TownTesting

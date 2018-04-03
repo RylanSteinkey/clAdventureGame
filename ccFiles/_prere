@@ -1,0 +1,36 @@
+Battle.o: Battle.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+Battle.o: Battle.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+BattleTest.o: BattleTest.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+Battle.o: Battle.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+BattleTest.o: BattleTest.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+CPPUNITTEST.o: CPPUNITTEST.cc ../headers/BattleTest.h ../headers/Battle.h \
+ ../headers/Monster.h ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+Battle.o: Battle.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+BattleTest.o: BattleTest.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h
+CPPUNITTEST.o: CPPUNITTEST.cc ../headers/BattleTest.h ../headers/Battle.h \
+ ../headers/Monster.h ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/Player.h

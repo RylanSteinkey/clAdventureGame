@@ -1,0 +1,52 @@
+Battle.o: Battle.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Battle.h ../headers/Element.h ../headers/FlyingMonster.h \
+ ../headers/UndeadMonster.h ../headers/MeleeMonster.h ../headers/Player.h
+BattleTest.o: BattleTest.cc ../headers/BattleTest.h ../headers/Battle.h \
+ ../headers/Monster.h ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/FlyingMonster.h \
+ ../headers/UndeadMonster.h ../headers/MeleeMonster.h ../headers/Player.h \
+ ../headers/Bow.h ../headers/Weapon.h ../headers/Potion.h \
+ ../headers/Battle.h ../headers/Player.h ../headers/FlyingMonster.h \
+ ../headers/Monster.h ../headers/Potion.h
+RoadTest.o: RoadTest.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Battle.h ../headers/Element.h ../headers/FlyingMonster.h \
+ ../headers/UndeadMonster.h ../headers/MeleeMonster.h ../headers/Player.h \
+ ../headers/Player.h ../headers/FlyingMonster.h ../headers/Monster.h \
+ ../headers/Potion.h ../headers/RoadTest.h ../headers/Battle.h \
+ ../headers/Player.h ../headers/Inventory.h ../headers/FlyingMonster.h \
+ ../headers/Monster.h ../headers/../headers/Staff.h \
+ ../headers/../headers/Weapon.h ../headers/../headers/Item.h \
+ ../headers/Bow.h ../headers/Weapon.h ../headers/Potion.h \
+ ../headers/NPC.h
+Road.o: Road.cc ../headers/Road.h ../headers/Map.h ../headers/Player.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Battle.h ../headers/Monster.h ../headers/Element.h \
+ ../headers/FlyingMonster.h ../headers/UndeadMonster.h \
+ ../headers/MeleeMonster.h ../headers/NPC.h
+Town.o: Town.cc
+TownTest.o: TownTest.cc ../headers/Battle.h ../headers/Monster.h \
+ ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Battle.h ../headers/Element.h ../headers/FlyingMonster.h \
+ ../headers/UndeadMonster.h ../headers/MeleeMonster.h ../headers/Player.h \
+ ../headers/Player.h ../headers/Town.h ../headers/Map.h ../headers/NPC.h \
+ ../headers/../headers/Player.h ../headers/Item.h ../headers/Bow.h \
+ ../headers/Weapon.h ../headers/Potion.h ../headers/TownTest.h \
+ ../headers/../headers/Town.h ../headers/../headers/Item.h
+CPPUNITTEST.o: CPPUNITTEST.cc ../headers/BattleTest.h ../headers/Battle.h \
+ ../headers/Monster.h ../headers/BattleCharacter.h ../headers/Character.h \
+ ../headers/Inventory.h ../headers/Screen.h ../headers/Item.h \
+ ../headers/Element.h ../headers/FlyingMonster.h \
+ ../headers/UndeadMonster.h ../headers/MeleeMonster.h ../headers/Player.h \
+ ../headers/Bow.h ../headers/Weapon.h ../headers/Potion.h \
+ ../headers/RoadTest.h ../headers/Battle.h ../headers/Player.h \
+ ../headers/Inventory.h ../headers/FlyingMonster.h ../headers/Monster.h \
+ ../headers/../headers/Staff.h ../headers/../headers/Weapon.h \
+ ../headers/Bow.h ../headers/Potion.h ../headers/NPC.h \
+ ../headers/TownTest.h
