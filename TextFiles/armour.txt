@@ -1,0 +1,37 @@
+30
+1 6 5 Broken Chainmail
+1 7 5 Rusty Chainmail
+1 9 5 Dirty Chainmail
+2 9 7 Weak Chainmail
+2 10 8 Weak Chainmail
+2 12 9 Weak Chainmail
+3 13 10 Chainmail
+3 14 11 Chainmail
+3 16 12 Chainmail
+4 19 13 Strong Chainmail
+4 20 14 Strong Chainmail
+4 22 15 Strong Chainmail
+5 28 16 Weak Chestplate
+5 29 17 Weak Chestplate
+5 31 18 Weak Chestplate
+6 42 19 Chestplate
+6 43 20 Chestplate
+6 45 21 Chestplate
+7 63 22 Strong Chestplate
+7 64 23 Strong Chestplate
+7 66 24 Strong Chestplate
+8 94 25 Weak Heavy Chestplate
+8 95 26 Weak Heavy Chestplate
+8 97 27 Weak Heavy Chestplate
+9 141 28 Heavy Chestplate
+9 142 29 Heavy Chestplate 
+9 144 30 Heavy Chestplate 
+10 211 31 Strong Heavy Chestplate 
+10 212 32 Strong Heavy Chestplate
+10 214 33 Strong Heavy Chestplate
+
+This file contains armour 
+Each armour has information stored in the following order: 
+itemLevel itemValue defenseStat itemName 
+
+Written by Rylan

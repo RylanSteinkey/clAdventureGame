@@ -1,0 +1,10 @@
+3
+1 50 20 5 1 1 Flying Fire Monster
+1 48 18 5 2 2 Melee Water Monster
+1 52 22 5 3 5 Undead Monster
+
+
+This file contains monsters
+data stored in the order Level, health, attack, defense, monsterType, element, name
+Elements are 1=Fire 2=Water 3=Earth 4=Air 5=None
+MonsterType are 1=Flying 2=Melee 3= Undead

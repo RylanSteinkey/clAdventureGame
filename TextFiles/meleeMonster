@@ -1,0 +1,55 @@
+50
+1 20 4 5 Fire
+1 20 4 5 Water
+1 20 4 5 Earth
+1 20 4 5 Air
+1 20 4 5 None
+2 22 4 5 Fire
+2 22 4 5 Water
+2 22 4 5 Earth
+2 22 4 5 Air
+2 22 4 5 None
+3 24 4 5 Fire
+3 24 4 5 Water
+3 24 4 5 Earth
+3 24 4 5 Air
+3 24 4 5 None
+4 26 5 6 Fire
+4 26 5 6 Water
+4 26 5 6 Earth
+4 26 5 6 Air
+4 26 5 6 None
+5 28 6 7 Fire
+5 28 6 7 Water
+5 28 6 7 Earth
+5 28 6 7 Air
+5 28 6 7 None
+6 30 7 8 Fire
+6 30 7 8 Water
+6 30 7 8 Earth
+6 30 7 8 Air
+6 30 7 8 None
+7 32 9 10 Fire
+7 32 9 10 Water
+7 32 9 10 Earth
+7 32 9 10 Air
+7 32 9 10 None
+8 34 11 12 Fire
+8 34 11 12 Water
+8 34 11 12 Earth
+8 34 11 12 Air
+8 34 11 12 None
+9 36 13 14 Fire
+9 36 13 14 Water
+9 36 13 14 Earth
+9 36 13 14 Air
+9 36 13 14 None
+10 38 16 17 Fire
+10 38 16 17 Water
+10 38 16 17 Earth
+10 38 16 17 Air
+10 38 16 17 None
+
+This file contains Monsters' data stored in the order: Level, health, attack, defense, element
+Written by Joshua Pepple
+50 monsters

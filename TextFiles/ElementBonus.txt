@@ -1,0 +1,22 @@
+Water Fire 1.1
+Fire Water 0.9
+Fire Earth 1.1
+Earth Fire 0.9
+Earth Air 1.1
+Air Earth 0.9
+Air Water 1.1
+Water Air 0.9
+
+#This file contains bonuses for weapon and element type
+#Data is stored in the order attackerInfo defenderInfo Multiplier
+#first line is how many items are in the file
+
+#Water counters fire
+#fire counters earth
+#earth counters air
+#air counters water
+#Bows Counter Flying
+#Staffs counter Undead
+#Swords Counter melee
+#Bows and staffs are poor vs melee ( bows are worse)
+#Swords are very bad vs flying

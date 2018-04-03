@@ -1,0 +1,17 @@
+Bow Flying 1.1
+Staff Undead 1.1
+Sword Melee 1.1
+Bow Melee 0.9
+Staff Melee 0.9
+Sword Flying 0.3
+
+#This file contains bonuses for weapon and element type
+#Data is stored in the order attackerInfo defenderInfo Multiplier
+
+#Water counters fire
+#fire counters earth
+#earth counters air
+#air counters water
+#Bows Counter Flying
+#Staffs counter Undead
+#Swords Counter melee

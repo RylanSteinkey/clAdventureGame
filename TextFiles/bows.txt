@@ -1,0 +1,39 @@
+32
+0 6 5 5 Rotten Slingshot
+1 7 5 5 Wet Slingshot
+1 9 5 5 Dirty Slingshot
+2 9 7 1 Weak Fire Slingshot
+2 10 8 4 Weak Air Slingshot
+2 12 9 2 Weak Water Slingshot
+3 13 10 2 Water Slingshot
+3 14 11 3 Earth Slingshot
+3 16 12 5 Slingshot
+4 19 13 2 Strong Water Slingshot
+4 20 14 3 Strong Earth Slingshot
+4 22 15 4 Strong Air Slingshot
+5 28 16 1 Weak Fire Bow
+5 29 17 5 Weak Bow
+5 31 18 4 Weak Air Bow
+6 42 19 2 Water Bow
+6 43 20 1 Fire Bow
+6 45 21 5 Bow
+7 63 22 2 Strong Water Bow
+7 64 23 3 Strong Earth Bow
+7 66 24 4 Strong Air Bow
+8 94 25 4 Weak Air Crossbow
+8 95 26 3 Weak Earth Crossbow
+8 97 27 5 Weak Crossbow
+9 141 28 3 Earth Crossbow
+9 142 29 1 Fire Crossbow
+9 144 30 2 Water Crossbow
+10 211 31 4 Strong Air Crossbow
+10 212 32 3 Strong Earth Crossbow
+10 214 33 2 Strong Water Crossbow
+13 10000 99 1 Dragon Bow
+
+This file contains bows
+Each bow has information stored in the following order: 
+itemLevel itemValue attackStat weaponElement itemName 
+For element: 1=Fire 2=Water 3=Earth 4=Air 5=None
+
+Written by Rylan

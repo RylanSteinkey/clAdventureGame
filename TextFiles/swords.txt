@@ -1,0 +1,39 @@
+32
+1 6 5 5 Rotten Dagger
+1 7 5 5 Rusty Dagger
+1 9 5 5 Dirty Dagger
+2 9 7 1 Weak Fire Dagger
+2 10 8 4 Weak Fire Dagger
+2 12 9 2 Weak Air Dagger
+3 13 10 2 Water Dagger
+3 14 11 3 Earth Dagger
+3 16 12 5 Dagger
+4 19 13 2 Strong Water Dagger
+4 20 14 3 Strong Air Dagger
+4 22 15 4 Strong Air Dagger
+5 28 16 1 Weak Fire Sword
+5 29 17 5 Weak Sword
+5 31 18 4 Weak Air Bow
+6 42 19 2 Water Sword
+6 43 20 1 Fire Sword
+6 45 21 5 Sword
+7 63 22 2 Strong Water Sword
+7 64 23 3 Strong Earth Sword
+7 66 24 4 Strong Air Sword
+8 94 25 4 Weak Air Claymore
+8 95 26 3 Weak Earth Claymore
+8 97 27 5 Weak Claymore
+9 141 28 3 Earth Claymore
+9 142 29 1 Fire Claymore
+9 144 30 2 Water Claymore
+10 211 31 4 Strong Air Claymore
+10 212 32 3 Strong Earth Claymore
+10 214 33 1 Strong Fire Claymore
+13 10000 99 1 Dragon Claw
+
+This file contains swords
+Each sword has information stored in the following order: 
+itemLevel itemValue attackStat weaponElement itemName 
+For element: 1=Fire 2=Water 3=Earth 4=Air 5=None
+
+Written by Rylan

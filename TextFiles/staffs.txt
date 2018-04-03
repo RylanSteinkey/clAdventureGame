@@ -1,0 +1,39 @@
+32
+0 6 5 5	Rotten Stick
+1 7 5 5 Cracked Stick
+1 9 5 5 Dirty Stick
+2 9 7 1 Weak Fire Stick
+2 10 8 4 Weak Air Stick
+2 12 9 2 Weak Water Stick
+3 13 10 2 Water Stick
+3 14 11 3 Earth Stick
+3 16 12 5 Stick
+4 19 13 2 Strong Water Stick
+4 20 14 3 Strong Earth Stick
+4 22 15 4 Strong Air Stick
+5 28 16 1 Weak Fire Staff
+5 29 17 5 Weak Staff
+5 31 18 4 Weak Air Staff
+6 42 19 2 Water Staff
+6 43 20 1 Fire Staff
+6 45 21 5 Staff
+7 63 22 2 Strong Water Staff
+7 64 23 3 Strong Earth Staff
+7 66 24 4 Strong Air Staff
+8 94 25 4 Weak Air Sceptre
+8 95 26 3 Weak Earth Sceptre
+8 97 27 5 Weak Sceptre
+9 141 28 3 Earth Sceptre
+9 142 29 1 Fire Sceptre
+9 144 30 2 Water Sceptre
+10 211 31 4 Strong Air Sceptre
+10 212 32 3 Strong Earth Sceptre
+10 214 33 1 Strong Fire Sceptre
+13 10000 99 1 Fire Breath
+
+This File contains staffs
+Each staff has information stored in the following order: 
+itemLevel itemValue attackStat weaponElement itemName 
+For element: 1=Fire 2=Water 3=Earth 4=Air 5=None
+
+Written by Rylan

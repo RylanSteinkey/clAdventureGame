@@ -1,0 +1,29 @@
+22
+Azeroth
+Brute's Watch
+Camdrough
+Dante's Peak
+Everview
+Fairdrop
+Giant's Bane
+Henry's Conquest
+Interpoint
+Jianti's Tomb
+Kent
+Layfair
+Moonview
+New Harbour
+Old Plain
+Presentview
+Questpoint
+Rogerton
+Templeton
+Undergrowth
+Vexton
+Westernshire
+
+
+The previous is a list of town and castle names with the total number of names
+at the top of the file.
+ex. You have arrived at the town of Giant's Bane!
+ex. You have entered the castle of Azeroth!
